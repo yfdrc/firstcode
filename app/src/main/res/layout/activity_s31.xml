@@ -15,22 +15,28 @@
             android:id="@+id/button311"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="edit" />
+            android:text="init" />
 
         <Button
             android:id="@+id/button312"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="get" />
+            android:text="add" />
 
         <Button
             android:id="@+id/button313"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="write" />
+            android:text="update" />
 
         <Button
             android:id="@+id/button314"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="delete" />
+
+        <Button
+            android:id="@+id/button315"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="read" />
