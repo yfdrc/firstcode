@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".s03.s31Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button311"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="edit" />
+
+        <Button
+            android:id="@+id/button312"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="get" />
+
+        <Button
+            android:id="@+id/button313"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="write" />
+
+        <Button
+            android:id="@+id/button314"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="read" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

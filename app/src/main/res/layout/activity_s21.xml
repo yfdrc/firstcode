@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".s02.s21Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button211"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="start main2 with ActionCat" />
+
+        <Button
+            android:id="@+id/button212"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="start main2 with extstr" />
+
+        <Button
+            android:id="@+id/button213"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="start main3 with result" />
+
+        <Button
+            android:id="@+id/button214"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="start web baidu" />
+
+        <Button
+            android:id="@+id/button215"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="start main4 with classname" />
+
+        <Button
+            android:id="@+id/button216"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="start main4 with bundle" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
